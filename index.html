@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Flint Naafs MG1B">
+	<title>Weer API</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="containerall">
+   <div id="wrap">
+	<h4> Weer API
+		<a href="http://weerlive.nl/delen.php">http://weerlive.nl/delen.php</a>
+	</h4>
+	<input  class="button button1" type="button" value="Laat een selectie zien" id="weatherButton">
+	<input class="button button2" type="button" value="Laat alle data zien" id="weatherButton2">
+	<input class="button button3" type="button" value="Ticker tape" id="weatherTickerTape">
+	<br>
+	<div id="weatherHere"></div>
+
+<script src="weer_api.js"></script>
+<script src="ajax_callback.js"></script>
+</div>
+<footer class="footer">
+<marquee height="50" width="90%" style="    margin: 0px auto;
+    display: block; " id="tickerHere"></marquee>
+</footer>
+</div>
+</body>
+</html>
